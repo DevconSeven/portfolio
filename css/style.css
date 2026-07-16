@@ -1,5 +1,5 @@
 :root {
-    --bg-dark: #131313;
+    --bg-dark: #141414;
     --text-light: #f0f0f0;
     --highlight-primary: #ea0459;
     --highlight-secondary: #00e676;
@@ -17,6 +17,11 @@ body {
 h1, h2, h4 {
     color: var(--highlight-primary);
     letter-spacing: 2px;
+}
+
+
+.muted {
+    color: #676767;
 }
 
 .tracking-wide {
@@ -157,9 +162,9 @@ h3 {
 }
 
 .badge-icon {
-    height: 115px;
-    width: auto;
-    filter: grayscale(25%);
+    width: 150px;
+    height: auto;
+    filter: grayscale(45%);
     opacity: 0.8;
     transition: all 0.4s ease;
 }
@@ -172,9 +177,10 @@ h3 {
 }
 
 .description-text {
-
-    font-size: x-large;
-    color: #d0d0d0;
+    max-width: 900px;
+    font-size: xx-large;
+    /* font-weight: bold; */
+    color: #f0f0f0;
     margin: 0 auto;
 }
 
@@ -256,12 +262,25 @@ h3 {
     }
 
     .social-container {
-        align-items: center;
+        padding-left:5%;
     }
 
     .profile-img {
         width: 80vw; 
         height: auto;
         margin-top: 2rem !important;
+    }
+
+    .skill-cloud{
+        padding: 4rem 2rem;
+    }
+
+    .size-sm { font-size: 0.8rem; }
+    .size-md { font-size: 1.2rem; }
+    .size-lg { font-size: 1.8rem; }
+    .size-xl { 
+        font-size: 2.2rem; 
+        text-transform: uppercase; 
+        letter-spacing: -2px; 
     }
 }

@@ -51,9 +51,10 @@
 
     <main>
         <div class="container py-5 text-center mt-5">
-            <img src="../img/Portrait.png" alt="Profile Emanuel Zimmermann" class="profile-img mb-4 mt-5">
-
-            <h1 class="mt-4">ÜBER MICH</h1>
+            <a href="#about">
+                <img src="../img/Portrait.png" alt="Profile Emanuel Zimmermann" class="profile-img mb-4 mt-5">
+            </a>
+            <h1 id="about" class="mt-4">ÜBER MICH</h1>
             <p class="intro-text mt-4">
                 Mein Weg in die Tech-Branche verlief zwar nicht geradlinig, war aber durch meine große Begeisterung für IT 
                 und meine Leidenschaft, Dinge zu erschaffen, schon vorgezeichnet. Durch meinen beruflichen Ursprung im 
@@ -106,12 +107,58 @@
 
                 <div class="container py-5 text-center mt-5">
                     <h2 class="mb-4">ZERTIFIKATE</h2>
-                    <p class="description-text">EXIN Agile Scrum - Python Certified Entry Level Programmer - Cisco Network Technician Career Path</p>
+
+                    <div class="description-text justify-content-between flex-wrap">
+                        <span>EXIN Agile Scrum Foundation</span>
+                        <span class="muted">|</span>
+                        <span>Python Certified Entry Level Programmer</span>
+                        <span class="muted">|</span>
+                        <span>Cisco Network Technician Career Path</span>
+                    </div>
+                
+                    <p class="intro-text mt-4">
+                        Diese Zertifikate spiegeln meinen ganzheitlichen Ansatz wider. Meine jahrelange praktische Erfahrung in agilen Scrum-Teams 
+                        habe ich formal untermauert, da dieses Framework in der modernen Softwareentwicklung essenziell ist. 
+                        Das PCEP-Zertifikat steht für meine ersten Programmierschritte in der enorm mächtigen und gefragten Sprache Python. 
+                        Um als Entwickler das große Ganze zu begreifen, habe ich zusätzlich einen intensiven, 70-stündigen Cisco-Kurs absolviert. 
+                        Dieser hat mir ein tiefgreifendes Verständnis für Netzwerkarchitekturen, das OSI-Modell und den physischen Datenfluss vermittelt.
+                    </p>
                 </div>
 
                 <div class="container py-5 text-center mt-5">
                     <h2 class="mb-4">TOOL STACK</h2>
-                    <p class="description-text">IntelliJ - Git -  Docker - VS Code - PyCharm - Xcode - Eclipse - Wireshark - Cisco Packet Tracer</p>
+
+                    <div class="description-text justify-content-between flex-wrap">
+                        <span>VS Code</span>
+                        <span class="muted">|</span>
+                        <span>Xcode</span>
+                        <span class="muted">|</span>
+                        <span>PyCharm</span>
+                        <span class="muted">|</span>
+                        <span>IntelliJ</span>
+                        <span class="muted">|</span>
+                        <span>DataGrip</span>
+                        <span class="muted">|</span>
+                        <span>Eclipse</span>
+                        <span class="muted">|</span>
+                        <span>Git</span>
+                        <span class="muted">|</span>
+                        <span>Docker</span>
+                        <span class="muted">|</span>
+                        <span>Wireshark</span>
+                        <span class="muted">|</span>
+                        <span>Cisco Packet Tracer</span>
+                    </div>
+                    
+                    <p class="intro-text mt-4">
+                        Mein Setup reicht von flexiblen Allroundern bis hin zu spezialisierten Entwicklungsumgebungen. Angefangen bei Visual Studio Code, 
+                        dessen Vielseitigkeit und Plugin-Architektur ich schätze, über kleine Ausflüge in Xcode als nativer Mac-Nutzer, 
+                        liegt mein heutiger Fokus auf den etablierten JetBrains-Produkten (IntelliJ, PyCharm, DataGrip) sowie Eclipse für Java. 
+                        Deren weite Verbreitung und durchgängige Konzepte ermöglichen ein hocheffizientes Arbeiten. 
+                        Werkzeuge wie Wireshark und der Cisco Packet Tracer erlauben mir zudem den Blick über den reinen Code hinaus, 
+                        um IT-Systeme ganzheitlich zu analysieren und zu verstehen.
+                    </p>
+                
                 </div>
 
         </section>
@@ -129,6 +176,11 @@
                         <textarea required name="message" class="form-control mb-3" rows="4" placeholder="Deine Nachricht..."></textarea>
                         <button type="submit" class="btn btn-outline-highlight">Absenden</button>
                     </form>
+                </div>
+            </div>
+            <div class="row position-relative mt-5 pt-5">
+                <div class="col-12 text-center">
+                    <a href="impressum_de.html" class="text-decoration-none small muted" >Impressum</a>
                 </div>
             </div>
         </div>
